@@ -264,17 +264,17 @@ class WC_API_Customers extends WC_API_Resource {
 		if ( is_wp_error( $id ) )
 			return $id;
 
-		$order_ids = $wpdb->get_col( $wpdb->prepare( "SELECT id
-						FROM $wpdb->posts AS posts
-						LEFT JOIN {$wpdb->postmeta} AS meta on posts.ID = meta.post_id
+        $query =  "SELECT id
+						FROM wp_posts AS posts
+						LEFT JOIN wp_postmeta AS meta on posts.ID = meta.post_id
 						WHERE meta.meta_key = '_customer_user'
-						AND   meta.meta_value = '%s'
+						AND   meta.meta_value = '" . $id . "'
 						AND   posts.post_type = 'shop_order'
-						AND   posts.post_status = IN ( '" . implode( "','", array_keys( wc_get_order_statuses() ) ) . "' )
-					", $id ) );
+					" ;
+		$order_ids = $wpdb->get_col( $wpdb->prepare($query) );
 
 		if ( empty( $order_ids ) )
-			return array( 'orders' => array() );
+			return array( 'orders' => "kong" );
 
 		$orders = array();
 

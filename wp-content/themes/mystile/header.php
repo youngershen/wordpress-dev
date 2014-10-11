@@ -26,7 +26,7 @@ global $woo_options, $woocommerce;
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	wp_head();
-	woo_head();
+	//woo_head();
 ?>
 
 </head>
