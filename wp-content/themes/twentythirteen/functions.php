@@ -570,13 +570,13 @@ function my_remove_recent_comments_style() {
     remove_action('wp_head', array($wp_widget_factory->widgets['WP_Widget_Recent_Comments'] ,'recent_comments_style'));
 }
 
-//禁止加载WP自带的jquery.js
-if ( !is_admin() ) { // 后台不禁止
-    function my_init_method() {
-        wp_deregister_script( 'jquery' ); // 取消原有的 jquery 定义
-    }
-    add_action('init', 'my_init_method');
+function my_init_method() {
+    wp_deregister_script( 'jquery' ); // 取消原有的 jquery 定义
+    
 }
+
+add_action('init', 'my_init_method');
+
 wp_deregister_script( 'l10n' );
 //register scripts
 wp_register_script( 'google', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js' );
