@@ -38,19 +38,19 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/json-api/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="476">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state vertical-scroll-proportion="-3.5961537" vertical-offset="0" max-vertical-offset="527">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <marker date="1413048996000" expanded="true" signature="93:174" placeholder="select id, u..wp_users..." />
+                <marker date="1413053182000" expanded="true" signature="93:175" placeholder="select id, u..wp_users..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7536946" vertical-offset="0" max-vertical-offset="1462">
+            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1462">
               <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
@@ -70,8 +70,8 @@
       <file leaf-file-name="class-wc-api-client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/json-api/controllers/class-wc-api-client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0576925" vertical-offset="756" max-vertical-offset="7684">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state vertical-scroll-proportion="-3.7307692" vertical-offset="945" max-vertical-offset="7684">
+              <caret line="67" column="40" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -87,16 +87,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-wc-api-customers.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class-wc-api-customers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/api/v1/class-wc-api-customers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.230769" vertical-offset="4368" max-vertical-offset="8670">
-              <caret line="268" column="67" selection-start-line="268" selection-start-column="67" selection-end-line="268" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.5111492" vertical-offset="4394" max-vertical-offset="8670">
+              <caret line="276" column="44" selection-start-line="276" selection-start-column="44" selection-end-line="276" selection-end-column="44" />
               <folding>
-                <marker date="1413048735000" expanded="true" signature="3049:3412" placeholder="SELECT id, p.._wpdb_posts AS..." />
-                <marker date="1413048735000" expanded="true" signature="7353:7531" placeholder="SELECT id FR..wp_posts..." />
-                <marker date="1413048735000" expanded="true" signature="7353:7586" placeholder="SELECT id FR..wp_posts..." />
-                <marker date="1413048735000" expanded="true" signature="7353:7587" placeholder="SELECT id FR.._wpdb_posts AS..." />
+                <marker date="1413053299000" expanded="true" signature="3049:3412" placeholder="SELECT id, p.._wpdb_posts AS..." />
+                <marker date="1413053299000" expanded="true" signature="7353:7531" placeholder="SELECT id FR..wp_posts..." />
+                <marker date="1413053299000" expanded="true" signature="7353:7586" placeholder="SELECT id FR..wp_posts..." />
+                <marker date="1413053299000" expanded="true" signature="7353:7587" placeholder="SELECT id FR.._wpdb_posts AS..." />
               </folding>
             </state>
           </provider>
@@ -143,15 +143,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/mystile/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/mystile/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/json-api/controllers/class-wc-api-client.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/api/v1/class-wc-api-customers.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/json-api/controllers/user.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/json-api/controllers/user.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/api/v1/class-wc-api-customers.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-24" />
+    <option name="x" value="26" />
     <option name="y" value="22" />
     <option name="width" value="1239" />
     <option name="height" value="778" />
@@ -267,7 +267,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-24" y="22" width="1239" height="778" extended-state="0" />
+    <frame x="26" y="22" width="1239" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -464,32 +464,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/json-api/controllers/class-wc-api-client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0576925" vertical-offset="756" max-vertical-offset="7684">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="312" max-vertical-offset="918">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/api/v1/class-wc-api-customers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.230769" vertical-offset="4368" max-vertical-offset="8670">
-          <caret line="268" column="67" selection-start-line="268" selection-start-column="67" selection-end-line="268" selection-end-column="67" />
-          <folding>
-            <marker date="1413048735000" expanded="true" signature="3049:3412" placeholder="SELECT id, p.._wpdb_posts AS..." />
-            <marker date="1413048735000" expanded="true" signature="7353:7531" placeholder="SELECT id FR..wp_posts..." />
-            <marker date="1413048735000" expanded="true" signature="7353:7586" placeholder="SELECT id FR..wp_posts..." />
-            <marker date="1413048735000" expanded="true" signature="7353:7587" placeholder="SELECT id FR.._wpdb_posts AS..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,21 +480,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/json-api/controllers/class-wc-api-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7307692" vertical-offset="945" max-vertical-offset="7684">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/json-api/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="476">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state vertical-scroll-proportion="-3.5961537" vertical-offset="0" max-vertical-offset="527">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1413048996000" expanded="true" signature="93:174" placeholder="select id, u..wp_users..." />
+            <marker date="1413053182000" expanded="true" signature="93:175" placeholder="select id, u..wp_users..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/api/v1/class-wc-api-customers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7536946" vertical-offset="0" max-vertical-offset="1462">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="0.5111492" vertical-offset="4394" max-vertical-offset="8670">
+          <caret line="276" column="44" selection-start-line="276" selection-start-column="44" selection-end-line="276" selection-end-column="44" />
+          <folding>
+            <marker date="1413053299000" expanded="true" signature="3049:3412" placeholder="SELECT id, p.._wpdb_posts AS..." />
+            <marker date="1413053299000" expanded="true" signature="7353:7531" placeholder="SELECT id FR..wp_posts..." />
+            <marker date="1413053299000" expanded="true" signature="7353:7586" placeholder="SELECT id FR..wp_posts..." />
+            <marker date="1413053299000" expanded="true" signature="7353:7587" placeholder="SELECT id FR.._wpdb_posts AS..." />
+          </folding>
         </state>
       </provider>
     </entry>

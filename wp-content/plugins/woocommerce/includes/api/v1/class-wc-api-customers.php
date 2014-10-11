@@ -274,7 +274,7 @@ class WC_API_Customers extends WC_API_Resource {
 		$order_ids = $wpdb->get_col( $wpdb->prepare($query) );
 
 		if ( empty( $order_ids ) )
-			return array( 'orders' => "kong" );
+			return array( 'orders' => array() );
 
 		$orders = array();
 
