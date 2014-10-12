@@ -38,22 +38,22 @@ global $woo_options, $woocommerce;
 
 
 
-	<div id="top">
-		<nav class="col-full" role="navigation">
-			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
-			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
-			<?php } ?>
-			<?php
-				if ( class_exists( 'woocommerce' ) ) {
-					echo '<ul class="nav wc-nav">';
-					woocommerce_cart_link();
-					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
-					echo get_search_form();
-					echo '</ul>';
-				}
-			?>
-		</nav>
-	</div><!-- /#top -->
+<!--	<div id="top">-->
+<!--		<nav class="col-full" role="navigation">-->
+<!--			--><?php //if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
+<!--			--><?php //wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
+<!--			--><?php //} ?>
+<!--			--><?php
+//				if ( class_exists( 'woocommerce' ) ) {
+//					echo '<ul class="nav wc-nav">';
+//					woocommerce_cart_link();
+//					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
+//					echo get_search_form();
+//					echo '</ul>';
+//				}
+//			?>
+<!--		</nav>-->
+<!--	</div><!-- /#top -->
 
 
 

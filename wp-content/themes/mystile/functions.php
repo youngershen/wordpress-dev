@@ -107,7 +107,35 @@ function remove_open_sans() {
     wp_enqueue_style('open-sans','');
 }
 add_action( 'init', 'remove_open_sans' );
+add_filter ('add_to_cart_redirect', 'redirect_to_checkout');
+function redirect_to_checkout() {
+    global $woocommerce;
+    $checkout_url = $woocommerce->cart->get_checkout_url();
+    return $checkout_url;
+}
 
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+function custom_override_checkout_fields( $fields ) {
+    //unset($fields['order']['order_comments']);
+    unset( $fields['billing']['billing_country'] );
+    //unset( $fields['billing']['billing_first_name'] );
+    //unset( $fields['billing']['billing_last_name'] );
+    unset( $fields['billing']['billing_company'] );
+    unset( $fields['billing']['billing_address_1'] );
+    unset( $fields['billing']['billing_address_2'] );
+    unset( $fields['billing']['billing_city'] );
+    unset( $fields['billing']['billing_state'] );
+    unset( $fields['billing']['billing_postcode'] );
+    unset($fields['billing']['billing_email']);
+    unset( $fields['billing']['billing_phone'] );
+    unset( $fields['billing']['billing_last_name'] );
+    unset( $fields['billing']['billing_first_name'] );
+
+    //unset shipping form
+    unset($fields['shipping']);
+    return $fields;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* Don't add any code below here or the sky will fall down */
