@@ -1,8 +1,12 @@
 ####wp二次开发的网店
 
 #####关于部署
-我没有导出我的数据库，因为主机的域名和调试服务器的端口都不一样，所以导出了也需要去手动修改数据库才可以，这样不如直接初始化一次wp来的方便，后期我会搞一个脚本自动部署。
 
+现在我导出了数据库， 在项目根目录下的 wp.sql, 倒入数据库之后， 执行 2个条sql命令， 把你本地的地址替换进去就行了
+update wp_options set option_value="你的地址" where option_name = "home";
+update wp_options set option_value="你的地址" where option_name = "siteurl";
+
+其他的地方请参考下面的说明
 __部署方法__
 
 	1.确保 你的服务器支持 mod_rewrite 和 php curl 
